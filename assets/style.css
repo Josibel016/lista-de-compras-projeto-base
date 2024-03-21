@@ -1,19 +1,27 @@
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background: linear-gradient(177.52deg, #000000 2.11%, #363636 81.34%);;
     background-repeat: no-repeat;
     height: 100%;
 }
 
 body {
     font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+    color: aliceblue;
 }
 
 h2, footer {
     font-family: 'Mansalva';
 }
 
-button {
+
+
+.custom-button {
     border: none;
+    color: black;
+    background-color: whitesmoke;
+    height: 50px;
+    border-radius: 8%; 
+ 
 }
 
 .itens-comprados {
@@ -21,7 +29,7 @@ text-decoration: line-through;
 }
 
 .borda-lista {
-    border-bottom: dotted 2px blue;
+    border-bottom: dotted 2px black;
 }
 
 input:disabled {
